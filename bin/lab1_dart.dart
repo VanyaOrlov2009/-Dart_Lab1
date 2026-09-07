@@ -1,4 +1,9 @@
+String greet(String name) {
+  return 'Привет, $name!';
+}
 void main() {
+  print(greet('Артем'));
+  print(greet('Мария'));
   String name = "Артем";
   int age = 20;
   double height = 1.75;
@@ -44,7 +49,7 @@ List<String> fruits2 = ['яблоко','банан','груша'];
 for (var fruit in fruits2) {
   print(fruit);
 }
-
-
-
+String greet(String name) {
+  return 'Привет, $name!';
+}
 }
