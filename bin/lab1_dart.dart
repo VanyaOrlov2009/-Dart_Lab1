@@ -4,25 +4,25 @@ void main() {
   double height = 1.87;
   bool isStudent = true;
 
-  // print(name);
-  // print(age);
-  // print(height);
-  // print(isStudent);
+  print(name);
+  print(age);
+  print(height);
+  print(isStudent);
 
-  // print('Привет, $name! Тебе $age лет.');
-  // print('Через 5 лет тебе будет ${age + 5} лет.');
-  // print('Рост: ${height} м, студент: ${isStudent}');
+  print('Привет, $name! Тебе $age лет.');
+  print('Через 5 лет тебе будет ${age + 5} лет.');
+  print('Рост: ${height} м, студент: ${isStudent}');
 
   var score = 95;
   // var language = 'Dart';
 
   final String language = 'Dart';
   final int releaseYear = 2011;
-  // print('$language: $score');
+  print('$language: $score');
 
   const String appName = "Lab1";
   final int startYear = 2026;
-  // print("$appName started in $startYear");
+  print("$appName started in $startYear");
 
   String? city = null; 
 
@@ -31,11 +31,11 @@ void main() {
     );  
   }
  
-  // print(city?.toUpperCase());
+  print(city?.toUpperCase());
 
   String? nickname = null;
   String display = nickname ?? 'Аноним';
-  // print(display);
+  print(display);
 
   List<String> fruits = ["яблоко", "банан", "груша",];
   fruits.add("апельсин");
@@ -54,5 +54,5 @@ void main() {
   for(var fruit in fruits2) {
     print(fruit);
   }
-  
+
 }
